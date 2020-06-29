@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="GET">
+            <label for="name">Ime i Prezime</label> <br>
+            <input type="text" class="input" name="name" id="name" placeholder="Unesite Ime i Prezime">
+            <small id="name-msg"></small> <br>
+
+            <label for="email">E-mail</label> <br>
+            <input type="email" class="input" name="email" id="email" placeholder="Unesite E-mail"> 
+            <small id="email-msg"></small><br>
+
+            <label for="year-of-birth">Godina rođenja</label> <br>
+            <input type="number" class="input" name="year-of-birth" id="year-of-birth" placeholder="Unesite godinu rođenja">
+            <small id="year-msg"></small> <br>
+
+            <label for="description">Opis</label> <br>
+            <textarea name="description" class="input" id="description" cols="30" rows="10" placeholder="Unesite opis"></textarea>
+            <small id="description-msg"></small> <br>
+
+            <button type="button" class="btn" id="check-button">Provjeri</button>
+            <button type="submit" class="btn" id="submit">Submit</button>
+        </form>
+    
+</div>
+</body>
+<script src="form.js"></script>
+</html>
