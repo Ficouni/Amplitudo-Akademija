@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 1</title>
+</head>
+<style>
+    body {
+        background-image: url(https://static.vecteezy.com/packs/media/components/home/masthead-vectors/img/lavakidneys_800x400@2x-2db5e5a0c944e2b16a11a18674570f76.jpg);
+    }
+    
+    #heading {
+        font-family: 'Times New Roman', cursive;
+        color: #ffffff;
+        
+    }
+    
+    .container {
+        padding: 7px;
+        margin: 7px
+        
+    }
+
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+</style>
+
+<body>
+    
+    <form enctype="multipart/form-data" method="POST" action="form.php">
+        <h2 id="heading"> Zadatak 1 </Zadatak></h2>
+        <div style="width: 400px; height: 400px; position: fixed;">
+        <div class="container"> Ime i Prezime:
+            <input type="text" name="name-surname">
+        </div>
+        <div class="container"> E-mail:
+            <input type="text" name="email" >
+        </div>
+        <div class="container"> Broj telefona:
+            <input type="text" name="phone-number" >
+        </div>
+        <div class="container"> 
+            <input multiple type="file" name="file" />
+        </div>
+        <div class="container">
+            <button type="submit">Potvrdi</button>
+        </div>
+        </div>
+    </form>
+    
+</body>
+
+</html>
